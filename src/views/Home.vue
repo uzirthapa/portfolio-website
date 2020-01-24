@@ -192,7 +192,7 @@ export default {
             }
           ],
           description:
-            "Similar to 'Bag it'. I wanted to make a swippable market place where people could swipe on goods from a store. Also it gor rid of all the extra distractions and you are able to focus on just one item at a time. Still need to build the recommender system. But I am working on it! :)",
+            "Similar to 'Bag it'. I wanted to make a swippable market place where people could swipe on goods from a store. Also it got rid of all the extra distractions and you are able to focus on just one item at a time. Still need to build the recommender system. But I am working on it! :)",
           technologies: [
             {
               name: "VueJS",
@@ -300,7 +300,7 @@ export default {
             }
           ],
           description:
-            "We Wanted to help people who want to create an ecommerce store with VueJS and Vuetify have a template that had authentication and payments integrated right from the get go. So now you can hit thr ground running! In Collaboration with Aatish Balla.",
+            "We Wanted to help people who want to create an ecommerce store with VueJS and Vuetify have a template that had authentication and payments integrated right from the get go. So now you can hit the ground running! In Collaboration with Aatish Balla.",
           technologies: [
             {
               name: "VueJS",
@@ -321,6 +321,42 @@ export default {
               name: "Stripe",
               icon: "mdi-credit-card-outline",
               link: ""
+            }
+          ],
+          code: {
+            name: "github",
+            icon: "mdi-github-circle",
+            link: ""
+          }
+        },
+        {
+          name: "Sacred Summits",
+          price: "LIVE",
+          logo: "ss-logo-high-res.png",
+          platforms: [
+            {
+              name: "web",
+              icon: "mdi-web",
+              link: "https://sacred-summits-web.firebaseapp.com/"
+            }
+          ],
+          description:
+            "Sacred Summits was looking for a redesign of their website and they asked me to come up with a sample. This is what I came up with.",
+          technologies: [
+            {
+              name: "VueJS",
+              icon: "mdi-vuejs",
+              link: "https://vuejs.org/"
+            },
+            {
+              name: "Vuetify",
+              icon: "mdi-vuetify",
+              link: "https://vuetifyjs.com/"
+            },
+            {
+              name: "Firebase",
+              icon: "mdi-firebase",
+              link: "https://firebase.google.com/"
             }
           ],
           code: {
