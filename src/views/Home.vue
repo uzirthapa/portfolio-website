@@ -11,8 +11,12 @@
         <v-container>
           <v-row align="center" justify="center" class="white--text">
             <v-col cols="12">
-              <div class="display-2 font-weight-bold">Welcome to my page.</div>
-              <div class="headline">I make applications.</div>
+              <div
+                :class="{'display-2 font-weight-bold ': $vuetify.breakpoint.smAndUp, 'title font-weight-bold': $vuetify.breakpoint.smAndDown}"
+              >Welcome to my page.</div>
+              <div
+                :class="{'headline': $vuetify.breakpoint.smAndUp, 'subtitle-1': $vuetify.breakpoint.smAndDown}"
+              >I make applications.</div>
             </v-col>
           </v-row>
         </v-container>
@@ -289,8 +293,8 @@ export default {
           }
         },
         {
-          name: "Ecommerce App",
-          price: "$50.00",
+          name: "Ecommerce Biolerplate",
+          price: "OPEN SOURCE",
           logo: "logo.png",
           platforms: [
             {
@@ -326,7 +330,7 @@ export default {
           code: {
             name: "github",
             icon: "mdi-github-circle",
-            link: ""
+            link: "https://github.com/uzirthapa/ecommerce-skeleton"
           }
         },
         {
