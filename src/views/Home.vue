@@ -124,7 +124,7 @@ export default {
           ],
           code: {
             name: "github",
-            icon: "mdi-github-circle",
+            icon: "mdi-github",
             link: ""
           }
         },
@@ -175,7 +175,7 @@ export default {
           ],
           code: {
             name: "github",
-            icon: "mdi-github-circle",
+            icon: "mdi-github",
             link: "https://github.com/uzirthapa/finance-app"
           }
         },
@@ -221,7 +221,7 @@ export default {
           ],
           code: {
             name: "github",
-            icon: "mdi-github-circle",
+            icon: "mdi-github",
             link: ""
           }
         },
@@ -252,7 +252,7 @@ export default {
           ],
           code: {
             name: "github",
-            icon: "mdi-github-circle",
+            icon: "mdi-github",
             link: "https://github.com/uzirthapa/facebook-ui"
           }
         },
@@ -288,7 +288,7 @@ export default {
           ],
           code: {
             name: "github",
-            icon: "mdi-github-circle",
+            icon: "mdi-github",
             link: "https://github.com/uzirthapa/Firebird-Fitness"
           }
         },
@@ -329,7 +329,7 @@ export default {
           ],
           code: {
             name: "github",
-            icon: "mdi-github-circle",
+            icon: "mdi-github",
             link: "https://github.com/uzirthapa/ecommerce-skeleton"
           }
         },
@@ -365,7 +365,7 @@ export default {
           ],
           code: {
             name: "github",
-            icon: "mdi-github-circle",
+            icon: "mdi-github",
             link: ""
           }
         }
@@ -393,7 +393,7 @@ export default {
           name: "Github",
           value: "uzirthapa",
           link: "https://github.com/uzirthapa/",
-          icon: "mdi-github-circle"
+          icon: "mdi-github"
         },
         {
           name: "Facebook",
